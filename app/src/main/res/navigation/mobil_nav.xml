@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobil_nav"
+    app:startDestination="@id/fragmentInicio">
+    <fragment
+        android:id="@+id/fragmentInicio"
+        android:name="com.example.tfg.FragmentInicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/fragmentCalendario"
+        android:name="com.example.tfg.FragmentCalendario"
+        android:label="fragment_calendario"
+        tools:layout="@layout/fragment_calendario" />
+    <fragment
+        android:id="@+id/fragmentEquipo"
+        android:name="com.example.tfg.FragmentEquipo"
+        android:label="fragment_equipo"
+        tools:layout="@layout/fragment_equipo" />
+    <fragment
+        android:id="@+id/fragmentChat"
+        android:name="com.example.tfg.FragmentChat"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/fragmentMenu"
+        android:name="com.example.tfg.FragmentMenu"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
+</navigation>

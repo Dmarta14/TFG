@@ -1,3 +1,11 @@
 <resources>
+
     <string name="app_name">Tfg</string>
+    <string name="title_activity_main">MenuPrincipal</string>
+    <string name="title_inicio">Inicio</string>
+    <string name="title_calendario">Calendario</string>
+    <string name="title_equipo">Equipo</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_menu">Menu</string>
+
 </resources>
