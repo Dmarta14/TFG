@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eab8a74-3a4e-4cd0-9382-ccbb167f973f" name="Changes" comment="Primera subida" />
+    <list default="true" id="3eab8a74-3a4e-4cd0-9382-ccbb167f973f" name="Changes" comment="&#10;subida">
+      <change beforePath="$PROJECT_DIR$/Memoria/Revisar mercado de aplicaciones de .txt" beforeDir="false" afterPath="$PROJECT_DIR$/Memoria/Revisar mercado de aplicaciones de .txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709654582938</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&#10;subida">
+      <created>1709656411876</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709656411876</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +150,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primera subida" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primera subida" />
+    <MESSAGE value="&#10;subida" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;subida" />
   </component>
 </project>
