@@ -1,0 +1,47 @@
+*Revisar mercado de aplicaciones de similares características
+	-Para gestionar un equipo:
+		-SportEasy
+		-SportMember
+	-Para crear ejercicios para los entranamientos
+		-PlanetTraining
+		-Bcoach
+	-Para crear equipos:
+		-LINEUP11
+*Definir funcionalidades/requisitos
+	-Login/Registro
+	-Que sea una aplicación que pueda ser utilizada para diferentes deportes.
+		-Introducir datos del equipo(federación a la que pertenece y categoria), y que salga los equipos disponibles a elegir.
+	-Una vez introducidos los datos haya un pestaña donde pueda entrar a diferentes categorias
+		-Clasificación.
+		-Calendario.
+		-Sanciones.
+	-Dentro del apartado calendario si pinchas en los partidos te muestre hora y lugar (si no sabes la localización del lugar que te la muestre por maps)
+	-Meter datos personales de todos los jugadores del equipo.
+	-Meter datos de los jugadores obtenidos mediante un gps colocado en el entrenamiento.(velocidad,distancia recorrida, frecuencia cardiaca...).
+	-Meter datos de los jugadores obtenidos en un partido (minutos jugados, duelos ganados/perdidos, balones tocados/perdidos, goles, asistencias, robos, tarjetas...).
+	-Chat para comunicarse con los jugadores donde se puedan pasar convocatorias, horarios de entrenamiento o ejercicios .
+	-Banco de ejercicios para coger ideas para realizar tus sesiones de entrenamientos dependiendo de lo que uno quiere trabajar.
+	-Pantalla donde se pueda crear uno sus propios ejercicios.
+	-¿Posibilidad de enlace a canal de youtube para ver videos?
+	-¿Noticias?
+	-Notificaciones cada vez de se publique un mensaje.
+	-Utilizar una base de datos para guardar los diferentes datos.
+	-Crear grafica con datos ordenados de mejor a peor rendimiento.
+	-Utilizar multiidioma.
+	-Crear un 11 titular con muñecos/imagenes para el partido
+
+
+
+
+Primer prototipo:
+
+-Login/Registro
+--Introducir datos del equipo(federación a la que pertenece y categoria), y que salga los equipos disponibles a elegir.
+-Calendario.
+-Dentro del apartado calendario si pinchas en los partidos te muestre hora y lugar (si no sabes la localización del lugar que te la muestre por maps)
+-Meter datos personales de todos los jugadores del equipo.
+	-Meter datos de los jugadores obtenidos mediante un gps colocado en el entrenamiento.(velocidad,distancia recorrida, frecuencia cardiaca...).
+	-Meter datos de los jugadores obtenidos en un partido (minutos jugados, duelos ganados/perdidos, balones tocados/perdidos, goles, asistencias, robos, tarjetas...).
+	-Chat para comunicarse con los jugadores donde se puedan pasar convocatorias, horarios de entrenamiento o ejercicios .
+-Banco de ejercicios para coger ideas para realizar tus sesiones de entrenamientos dependiendo de lo que uno quiere trabajar.
+-Notificaciones cada vez de se publique un mensaje.
