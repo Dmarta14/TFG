@@ -1,11 +1,21 @@
 <resources>
 
     <string name="app_name">Tfg</string>
-    <string name="title_activity_main">MenuPrincipal</string>
-    <string name="title_inicio">Inicio</string>
-    <string name="title_calendario">Calendario</string>
-    <string name="title_equipo">Equipo</string>
-    <string name="title_chat">Chat</string>
-    <string name="title_menu">Menu</string>
+    <string name="activity_main">MenuPrincipal</string>
+    <string name="inicio">Inicio</string>
+    <string name="calendario">Calendario</string>
+    <string name="equipo">Equipo</string>
+    <string name="chat">Chat</string>
+    <string name="menu">Menu</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="inicio_sesión">Inicio de Sesión</string>
+    <string name="acceder">Acceder</string>
+    <string name="no_tienes_cuenta">¿No tienes cuenta?</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="Nombre">Nombre y Apellidos</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseñaRepetir">Repetir Contraseña</string>
+    <string name="fechanacimiento">Fecha Nacimiento</string>
 
 </resources>

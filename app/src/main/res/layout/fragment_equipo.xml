@@ -14,6 +14,6 @@
         android:gravity="center"
         android:textColor="@color/black"
         android:textSize="40sp"
-        android:text="@string/title_equipo" />
+        android:text="@string/equipo" />
 
 </FrameLayout>

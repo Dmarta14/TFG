@@ -4,21 +4,21 @@
     <item
         android:id="@+id/fragmentInicio"
         android:icon="@drawable/ic_home_black_24dp"
-        android:title="Inicio" />
+        android:title="@string/inicio" />
     <item
         android:id="@+id/fragmentCalendario"
         android:icon="@drawable/baseline_calendar_month_24"
-        android:title="Calendario" />
+        android:title="@string/calendario" />
     <item
         android:id="@+id/fragmentEquipo"
-        android:icon="@drawable/baseline_person_24"
-        android:title="Equipo" />
+        android:icon="@drawable/ic_accessibility_24"
+        android:title="@string/equipo" />
     <item
         android:id="@+id/fragmentChat"
         android:icon="@drawable/baseline_chat_24"
-        android:title="Chat" />
+        android:title="@string/chat" />
     <item
         android:id="@+id/fragmentMenu"
         android:icon="@drawable/baseline_menu_24"
-        android:title="Menu" />
+        android:title="@string/menu" />
 </menu>
