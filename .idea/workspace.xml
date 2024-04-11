@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4ad48aa-53f8-4e93-9b42-738d35a1aa98" name="Changes" comment="Menus Principal y botones de abajo">
+    <list default="true" id="a4ad48aa-53f8-4e93-9b42-738d35a1aa98" name="Changes" comment="Menus varios">
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tfg/BD.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tfg/Login.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tfg/Registro1.java" afterDir="false" />
@@ -79,21 +79,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ResourceManagerPrefKey.ModuleName": "Tfg.app.main",
-    "ResourceManagerPrefKey.ResourceType": "DRAWABLE",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/home/dmarta14/Documentos/TFG/TFGApp",
-    "memory.settings.postsync.last.time.stamp": "1712417864921",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ResourceManagerPrefKey.ModuleName&quot;: &quot;Tfg.app.main&quot;,
+    &quot;ResourceManagerPrefKey.ResourceType&quot;: &quot;DRAWABLE&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dmarta14/Documentos/TFG/TFGApp&quot;,
+    &quot;memory.settings.postsync.last.time.stamp&quot;: &quot;1712417864921&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="android.template.-1656689364">
       <recent name="com.example.tfg.ui" />
@@ -207,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709664636016</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Menus varios">
+      <created>1712856533437</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712856533437</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,6 +231,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Subida" />
     <MESSAGE value="Menus Principal y botones de abajo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Menus Principal y botones de abajo" />
+    <MESSAGE value="Menus varios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Menus varios" />
   </component>
 </project>
