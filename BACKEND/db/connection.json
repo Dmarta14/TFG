@@ -1,0 +1,9 @@
+{
+    "host": "34.132.21.209",
+    "port": 3306,
+    "user": "Dmarta14",
+    "password": "p%qbjqK*8by#3fGe!GKWvdmU!y4^SEb$N$4Gs&UXiD",
+    "database": "TFGDIEGOMARTA",
+    "insecureAuth": true,
+    "connectTimeout": 15000
+}
