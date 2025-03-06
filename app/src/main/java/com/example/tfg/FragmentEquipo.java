@@ -18,4 +18,5 @@ public class FragmentEquipo extends Fragment {
                              @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_equipo, container, false);
     }
+
 }

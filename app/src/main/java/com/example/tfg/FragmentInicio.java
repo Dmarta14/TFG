@@ -19,4 +19,5 @@ public class FragmentInicio extends Fragment {
                              @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_inicio, container, false);
     }
+
 }

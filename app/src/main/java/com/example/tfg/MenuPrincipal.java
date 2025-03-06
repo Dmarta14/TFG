@@ -21,7 +21,6 @@ public class MenuPrincipal extends AppCompatActivity {
         setContentView (R.layout.activity_menu_principal);
 
         BottomNavigationView bottomNavigationView = findViewById (R.id.bottomNavigationView);
-
         bottomNavigationView.setOnItemSelectedListener (new BottomNavigationView.OnItemSelectedListener () {
             @SuppressLint("NonConstantResourceId")
             @Override

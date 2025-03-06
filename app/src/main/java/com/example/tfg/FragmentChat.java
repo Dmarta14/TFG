@@ -19,4 +19,5 @@ public class FragmentChat extends Fragment {
                              @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_chat, container, false);
     }
+    
 }

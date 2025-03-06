@@ -19,4 +19,5 @@ public class FragmentMenu extends Fragment {
                              @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_menu, container, false);
     }
+
 }

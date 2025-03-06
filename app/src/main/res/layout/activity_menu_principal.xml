@@ -8,7 +8,6 @@
     android:paddingTop="?attr/actionBarSize"
     android:background="#FFDAB9"
     tools:context="com.example.tfg.MenuPrincipal">
-
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_container"
         android:name="androidx.fragment.app.FragmentContainerView"
