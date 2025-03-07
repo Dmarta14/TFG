@@ -45,13 +45,14 @@ public class Login extends AppCompatActivity {
                 Toast.makeText(this, "Por favor, completa todos los campos", Toast.LENGTH_SHORT).show();
                 return;
             }
+            Log.e("Prueba", "Entra aqui?");
 
             db.collection ("usuario")
                     .whereEqualTo ("email", correo)
                     .whereEqualTo ("pass", password)
                     .get ()
                     .addOnCompleteListener ( task -> {
-
+                        Log.e("Prueba", "Entra aqui?");
                         if (task.isSuccessful() && !task.getResult().isEmpty()) {
                             // Usuario encontrado -> Ir a pantalla de inicio
                             Intent intent = new Intent(this, MenuPrincipal.class);

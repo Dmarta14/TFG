@@ -8,15 +8,15 @@
     android:paddingTop="?attr/actionBarSize"
     android:background="#FFDAB9"
     tools:context="com.example.tfg.MenuPrincipal">
+
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_container"
-        android:name="androidx.fragment.app.FragmentContainerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="@id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-
+        android:name="com.example.tfg.MyFragment"
         android:layout_above="@id/bottomNavigationView"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

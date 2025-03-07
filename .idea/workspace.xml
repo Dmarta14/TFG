@@ -45,6 +45,11 @@
           <theme>@style/Theme.Tfg</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_my.xml">
+        <config>
+          <theme>@style/Theme.Tfg</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/boton_nav_menu.xml">
         <config>
           <theme>@style/Theme.Tfg</theme>
@@ -56,26 +61,14 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4ad48aa-53f8-4e93-9b42-738d35a1aa98" name="Changes" comment="Menus varios">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a4ad48aa-53f8-4e93-9b42-738d35a1aa98" name="Changes" comment="Login modificado">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tfg/MyFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_my.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tfg/FragmentCalendario.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tfg/FragmentCalendario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tfg/FragmentChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tfg/FragmentChat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tfg/FragmentEquipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tfg/FragmentEquipo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tfg/FragmentInicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tfg/FragmentInicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tfg/FragmentMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tfg/FragmentMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tfg/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tfg/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tfg/MenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tfg/MenuPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu_principal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu_principal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_calendario.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_calendario.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_chat.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_equipo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_equipo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_inicio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_inicio.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/boton_nav_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/boton_nav_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,11 +87,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile" />
         <option value="navigationResourceFile" />
         <option value="resourceFile" />
-        <option value="Class" />
         <option value="valueResourceFile" />
+        <option value="Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -270,7 +263,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712856533437</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Menu principal sin probrar">
+      <option name="closed" value="true" />
+      <created>1741304666264</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741304666264</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Menu principal sin probrar">
+      <option name="closed" value="true" />
+      <created>1741304686784</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741304686784</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Login modificado">
+      <option name="closed" value="true" />
+      <created>1741305124568</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741305124568</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,6 +317,8 @@
     <MESSAGE value="Subida" />
     <MESSAGE value="Menus Principal y botones de abajo" />
     <MESSAGE value="Menus varios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Menus varios" />
+    <MESSAGE value="Menu principal sin probrar" />
+    <MESSAGE value="Login modificado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login modificado" />
   </component>
 </project>
