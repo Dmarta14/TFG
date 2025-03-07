@@ -6,14 +6,17 @@
     android:background="#FFDAB9"
     tools:context=".FragmentInicio">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textColor="@color/black"
-        android:textSize="40sp"
-        android:text="@string/inicio" />
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido a Inicio"
+            android:textSize="24sp"/>
+    </LinearLayout>
 
 </FrameLayout>

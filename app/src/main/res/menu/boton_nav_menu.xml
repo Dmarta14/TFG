@@ -2,23 +2,23 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/fragmentInicio"
+        android:id="@+id/nav_inicio"
         android:icon="@drawable/ic_home_black_24dp"
         android:title="@string/inicio" />
     <item
-        android:id="@+id/fragmentCalendario"
+        android:id="@+id/nav_calendario"
         android:icon="@drawable/baseline_calendar_month_24"
         android:title="@string/calendario" />
     <item
-        android:id="@+id/fragmentEquipo"
+        android:id="@+id/nav_equipo"
         android:icon="@drawable/ic_accessibility_24"
         android:title="@string/equipo" />
     <item
-        android:id="@+id/fragmentChat"
+        android:id="@+id/nav_chat"
         android:icon="@drawable/baseline_chat_24"
         android:title="@string/chat" />
     <item
-        android:id="@+id/fragmentMenu"
+        android:id="@+id/nav_menu"
         android:icon="@drawable/baseline_menu_24"
         android:title="@string/menu" />
 </menu>

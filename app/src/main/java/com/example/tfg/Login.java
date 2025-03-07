@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -15,12 +16,14 @@ import androidx.work.OneTimeWorkRequest;
 import androidx.work.WorkInfo;
 import androidx.work.WorkManager;
 
+import com.google.firebase.firestore.FirebaseFirestore;
+
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 
 public class Login extends AppCompatActivity {
 
-    @Override
+    /*@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
@@ -54,10 +57,10 @@ public class Login extends AppCompatActivity {
         Log.d("Prueba inicio", "" + param);
         OneTimeWorkRequest oneTimeWorkRequest =
                 new OneTimeWorkRequest.Builder(BD.class).setInputData(param).build();
-        WorkManager.getInstance(InicioSesion.this).enqueue(oneTimeWorkRequest);
-        WorkManager.getInstance(InicioSesion.this)
+        WorkManager.getInstance(Login.this).enqueue(oneTimeWorkRequest);
+        WorkManager.getInstance(Login.this)
                 .getWorkInfoByIdLiveData(oneTimeWorkRequest.getId())
-                .observe(InicioSesion.this, workInfo -> {
+                .observe(Login.this, workInfo -> {
                     if (workInfo != null && workInfo.getState().isFinished()) {
                         if (workInfo.getState() != WorkInfo.State.SUCCEEDED) {
                             Toast.makeText(getApplicationContext(), "ERROR",
@@ -77,7 +80,7 @@ public class Login extends AppCompatActivity {
                                 startActivity(intent);
                             } else {
                                 AlertDialog.Builder builder =
-                                        new AlertDialog.Builder(InicioSesion.this);
+                                        new AlertDialog.Builder(Login.this);
                                 builder.setTitle("Usuario o contraseña incorrectos");
                                 builder.setMessage("Introduce el usuario o contraseña " +
                                         "correctamente o registrese en caso de no tener" +
@@ -85,7 +88,7 @@ public class Login extends AppCompatActivity {
                                 builder.setPositiveButton("Volver", (dialogInterface,
                                                                      i) -> {
                                     Intent intent = new Intent(getApplicationContext(),
-                                            InicioSesion.class);
+                                            Login.class);
                                     startActivity(intent);
                                 });
                                 AlertDialog alert = builder.create();
@@ -96,8 +99,45 @@ public class Login extends AppCompatActivity {
                         }
                     }
                 });
-    }
+    }*/
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate (savedInstanceState);
+        setContentView (R.layout.activity_login);
+        FirebaseFirestore db = FirebaseFirestore.getInstance ();
+        Button acceder = findViewById(R.id.Acceder);
+
+        acceder.setOnClickListener ( v -> {
+            String correo = ((EditText) findViewById(R.id.CorreoLogin)).getText().toString();
+            String password = ((EditText) findViewById(R.id.PasswordLogin)).getText().toString();
+
+            if (correo.isEmpty() || password.isEmpty()) {
+                Toast.makeText(this, "Por favor, completa todos los campos", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            db.collection ("usuario")
+                    .whereEqualTo ("email", correo)
+                    .whereEqualTo ("pass", password)
+                    .get ()
+                    .addOnCompleteListener ( task -> {
+
+                        if (task.isSuccessful() && !task.getResult().isEmpty()) {
+                            // Usuario encontrado -> Ir a pantalla de inicio
+                            Intent intent = new Intent(this, MenuPrincipal.class);
+                            startActivity(intent);
+                            finish();  // Cierra la pantalla de login
+                        } else {
+                            // Usuario no encontrado -> Mostrar mensaje de error
+                            Toast.makeText(this, "Usuario o contraseña incorrectos", Toast.LENGTH_SHORT).show();
+                        }
+                    })
+                    .addOnFailureListener(e -> Toast.makeText(this, "Error al conectar con la base de datos", Toast.LENGTH_SHORT).show());
+
+        });
+
+       }
     public void saveSession(String mail) {
         try {
             OutputStreamWriter outputStreamWriter =
