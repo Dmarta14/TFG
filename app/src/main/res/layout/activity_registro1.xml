@@ -64,7 +64,7 @@
                             android:id="@+id/imageView"
                             android:layout_width="match_parent"
                             android:layout_height="135dp"
-                            app:srcCompat="@drawable/dasmeetlogo" />
+                            app:srcCompat="@drawable/baseline_chat_24" />
 
                     </LinearLayout>
 
@@ -202,7 +202,7 @@
                         android:importantForAutofill="no"
                         android:inputType="date"
                         android:maxLines="1"
-                        android:onClick="showDatePickerDialog"
+
                         android:paddingLeft="20sp"
                         android:textColor="#6E7692"
                         android:textColorHint="#6E7692"
@@ -223,7 +223,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:layout_marginTop="20dp"
-                        app:srcCompat="@drawable/parte1formulario">
+                        app:srcCompat="@drawable/baseline_chat_24">
 
                     </ImageView>
 

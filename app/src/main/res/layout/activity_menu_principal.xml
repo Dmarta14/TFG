@@ -9,18 +9,15 @@
     android:background="#FFDAB9"
     tools:context="com.example.tfg.MenuPrincipal">
 
-    <FrameLayout
-        android:id="@+id/contentFrame"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="@id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <!-- Contenido de tu aplicación -->
-
-    </FrameLayout>
+        android:name="com.example.tfg.MyFragment"
+        android:layout_above="@id/bottomNavigationView"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
