@@ -17,5 +17,8 @@
     <string name="usuario">Usuario</string>
     <string name="contraseñaRepetir">Repetir Contraseña</string>
     <string name="fechanacimiento">Fecha Nacimiento</string>
+    <string name="anadirJugadores">Añadir jugadores</string>
+    <string name="gestionarJugadores">Gestionar jugadores</string>
+
 
 </resources>
