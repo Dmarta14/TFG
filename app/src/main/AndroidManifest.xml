@@ -22,13 +22,22 @@
 
         <activity
             android:name=".MenuPrincipal"
+            
             android:exported="true" >
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                 <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
+        </activity>
+        <activity
+            android:name=".AnadirJugador"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".GestionarEquipo"
+            android:exported="false">
         </activity>
     </application>
 
