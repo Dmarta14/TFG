@@ -17,8 +17,14 @@
     <string name="usuario">Usuario</string>
     <string name="contraseñaRepetir">Repetir Contraseña</string>
     <string name="fechanacimiento">Fecha Nacimiento</string>
-    <string name="anadirJugadores">Añadir jugadores</string>
-    <string name="gestionarJugadores">Gestionar jugadores</string>
-
-
+    <string name="anadirJugadores">Añadir jugadores/as</string>
+    <string name="gestionarJugadores">Gestionar jugadores/as</string>
+    <string name="datos_jugador">Datos Jugador/a</string>
+    <string name="text_nombre_jugador">Introduce el nombre del jugador/a </string>
+    <string name="Posición">Posición </string>
+    <string name="text_posición">Introduce la posición del jugador/a </string>
+    <string name="text_correo">Introduce el correo del jugador/a </string>
+    <string name="text_fecha">Introduce la fecha de nacimiento del jugador/a </string>
+    <string name="Fecha_Nacimiento">Fecha Nacimiento</string>
+    <string name="Guardar">Guardar</string>
 </resources>
