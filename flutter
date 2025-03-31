@@ -1,0 +1,114 @@
+import 'dart:io';
+import 'package:flet/flet.dart';
+
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:tfg/paginas/second_page.dart';
+
+class Login extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Página de Inicio de Sesión'),
+      ),
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(20.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+
+              // Título
+              Text(
+                'Inicio de Sesión',
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+
+                ),
+              ),
+              SizedBox(height: 30),
+
+              Platform.isIOS
+                ? CupertinoTextField(
+                placeholder: 'Escribe aquí tu correo',
+
+                 )
+                  : TextField (
+                  decoration: InputDecoration(
+                  labelText: 'Escribe aquí tu correo',
+                  border: OutlineInputBorder(),
+                  ),
+
+                ),
+
+              SizedBox(height: 20),
+
+              Platform.isIOS
+                  ? CupertinoTextField(
+                placeholder: 'Password',
+
+              )
+                  : TextField (
+                decoration: InputDecoration(
+                  labelText: 'Escribe aquí tu contraseña',
+                  border: OutlineInputBorder(),
+                ),
+
+              ),
+              SizedBox(height: 20),
+
+              Platform.isIOS
+                  ? CupertinoButton.filled(
+                  child: Text('ACCEDER'),
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => SecondPage()),
+                    );
+                  })
+
+
+
+                  : ElevatedButton (
+                      onPressed: (){
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => SecondPage()),
+                        );
+                      },
+
+                      child: Text('ACCEDER'),
+
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+
+
+
+------------------------------------
+
+
+import 'package:flutter/material.dart';
+import 'paginas/login.dart';  // Importamos la pantalla principal
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Login(),  // Definimos la pantalla inicial
+    );
+  }
+}
